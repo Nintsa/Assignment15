@@ -24,7 +24,7 @@ class HomePageFragment : BaseFragment<FragmentHomePageBinding>(FragmentHomePageB
     }
 
     override fun bindViewActionListeners() { //ქ ჩაიწერება რო ღილაკზე კლიკისას დასერჩოს
-        binding.btn.setOnClickListener{
+        binding.btnSearch.setOnClickListener{
             viewModel.addNewMessages()
         }
     }
